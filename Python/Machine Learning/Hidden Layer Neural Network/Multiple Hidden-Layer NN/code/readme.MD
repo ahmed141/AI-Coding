@@ -16,7 +16,6 @@ Before running code, place MNIST dataset in `../data` directory or change the di
 |   |   ├── image1.png
 |   |   ├── image2.png
 |   |   ├── ...
-|   ├── ...
 |   ├── 2
 |   |   ├── image1.png
 |   |   ├── image2.png
