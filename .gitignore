@@ -1,0 +1,3 @@
+# Git commit ignore file
+## exclude vscode from commits
+/.vscode
