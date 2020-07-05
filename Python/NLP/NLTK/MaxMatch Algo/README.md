@@ -7,7 +7,7 @@ This algorithm has been mainly used for chinease language but in this attempt, I
 ```
 
 ## Files Hierarchy
-`wordlist.txt` is Corpus for owrr MaxMatch algorithm in `MaxMatch.ipynb`
+`wordlist.txt` is Corpus for owrr MaxMatch algorithm in `MaxMatch.ipynb` 
 `50_nospaces.txt` is text strings that will be used to test MaxMatch in `MaxMatch.ipynb`
 
 # Notebooks
