@@ -3,7 +3,9 @@
 ### CIFAR - 10
 CIFAR-10 dataset consists of 60000 32x32 colour images in 10 classes, with 6000 images per class. There are 50000 training images and 10000 test images.
 
-<img align="center" src="./cifar-10-samples.png">
+<p align="center">
+    <img src="./cifar-10-samples.png">
+</p>
 <p style="text-align: center;">
 Figure: CIFAR-10 Data samples from each class (<a href="https://www.cs.toronto.edu/~kriz/cifar.html">source</a>)
 </p>
@@ -14,7 +16,9 @@ I have conducted following 9 expermients and reported their results in `results`
 ### Task 01: Base Architecture
 This is the base architecture of my keras models.
 
-<img align="center" src="./results/Task 01/model_01.png">
+<p align="center">
+<img src="./results/Task 01/model_01.png">
+</p>
 
 ### Task 02: Batch Normalization in Keras
 I added batch normalization layer after every convolution layer in base architecture.
@@ -22,7 +26,9 @@ I added batch normalization layer after every convolution layer in base architec
 ### Task 03: Mean Substraction in Keras
 I calculated the mean of dataset and performed mean-subtraction while training this model.
 
-<img align="center" src="./results/Task 03/mean_sub_task_3.png">
+<p align="center">
+    <img src="./results/Task 03/mean_sub_task_3.png">
+</p>
 <p style="text-align: center;">
 Figure: Mean of CIFAR-10 dataset (<a href="https://www.cs.toronto.edu/~kriz/cifar.html">source</a>)
 </p>
