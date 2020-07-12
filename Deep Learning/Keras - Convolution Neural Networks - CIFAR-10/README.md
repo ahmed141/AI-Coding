@@ -6,7 +6,7 @@ CIFAR-10 dataset consists of 60000 32x32 colour images in 10 classes, with 6000 
 <p align="center">
     <img src="./cifar-10-samples.png">
 </p>
-<p style="text-align: center;">
+<p align="center">
 Figure: CIFAR-10 Data samples from each class (<a href="https://www.cs.toronto.edu/~kriz/cifar.html">source</a>)
 </p>
 
@@ -27,10 +27,10 @@ I added batch normalization layer after every convolution layer in base architec
 I calculated the mean of dataset and performed mean-subtraction while training this model.
 
 <p align="center">
-    <img src="./results/Task 03/mean_sub_task_3.png">
+    <img src="./results/Task 03/mean_sub_task_3.PNG">
 </p>
-<p style="text-align: center;">
-Figure: Mean of CIFAR-10 dataset (<a href="https://www.cs.toronto.edu/~kriz/cifar.html">source</a>)
+<p align="center">
+Figure: Mean of CIFAR-10 dataset
 </p>
 
 ### Task 04: Initialization Methods in Keras
