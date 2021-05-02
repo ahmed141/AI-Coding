@@ -22,3 +22,6 @@ Directory Structure:
     ├───Spell Checking Language Model
     └───String Matching Algorithtms
 ```
+
+### Author
+Ahmed Shahzad
