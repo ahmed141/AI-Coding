@@ -26,7 +26,7 @@ print(imshow(pil_im, cmap='gray'))
 output_size_height = int((pil_im.shape[0]-Prewitt.shape[0]+2)/1+1)
 output_size_widht = int((pil_im.shape[1]-Prewitt.shape[1]+2)/1+1)
 output_matrix = np.zeros((output_size_height,output_size_widht))
-# Convolve box filter with the image
+# Convolve prewitt filter with the image
 output_matrix = compute_convolve2D(pil_im,Prewitt,output_matrix)
 img_nme = 'result_prewitt_filter.jpg'.format(img)
 plt.imsave(img_nme,output_matrix, cmap='gray')
